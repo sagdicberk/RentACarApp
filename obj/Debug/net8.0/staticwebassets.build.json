@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YnPfy8lNLqQlvcomrxZ59tUVXqxRtwkx88SvadhVZxQ=",
+  "Hash": "xfypetFRiWv/FA0W49YEP8mKF/TvLxg2F7fdQdWj05g=",
   "Source": "RentaCarApp",
   "BasePath": "_content/RentaCarApp",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\25e8e1fa-8c46-473e-8de1-480ed891cf04.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\2847da25-1347-4a32-aed8-377cc8f4a51d.jpg",
+      "SourceId": "RentaCarApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\",
+      "BasePath": "_content/RentaCarApp",
+      "RelativePath": "img/2847da25-1347-4a32-aed8-377cc8f4a51d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2847da25-1347-4a32-aed8-377cc8f4a51d.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\355061e7-5a72-4020-a855-864cce107eee.png",

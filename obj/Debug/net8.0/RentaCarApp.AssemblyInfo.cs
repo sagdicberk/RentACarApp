@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RentaCarApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67549bdb9f118db98b821310191343519cc7c97b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RentaCarApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RentaCarApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
