@@ -1,0 +1,40 @@
+@model IEnumerable<Car>
+
+<h2>Car List</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="row">
+            @foreach (var car in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="~/img/@car.Image" class="card-img-top img-fluid" alt="@car.Brand"
+                            style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">@car.Brand @car.Model</h5>
+                            <p class="card-text"><strong>Price per day:</strong> $@car.PricePerDay</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between">
+                            <a asp-area="" asp-controller="Car" asp-action="Detail" asp-route-CarId="@car.Id"
+                                class="btn btn-primary">Detay</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-4 p-3">
+            <h4 class="">Search Cars</h4>
+            <form method="get" action="/Car/Index" class="mb-3 d-flex">
+                <input type="text" name="searchTerm" class="form-control me-2" placeholder="Search cars" />
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+
+        <!-- Markalar ViewComponent'i çağırma -->
+        @await Component.InvokeAsync("BrandList")
+    </div>
+</div>

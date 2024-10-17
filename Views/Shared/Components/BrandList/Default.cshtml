@@ -1,0 +1,15 @@
+@model IEnumerable<string>
+
+<div class="container card p-3">
+    <h4>Markalar</h4>
+    <ul class="list-group">
+        @foreach (var brand in Model)
+        {
+            <a asp-controller="Car" asp-action="Index" asp-route-brand="@brand" class="btn btn-success btn-block mb-2">
+                <li class="list-group-item">
+                    @brand
+                </li>
+            </a>
+        }
+    </ul>
+</div>

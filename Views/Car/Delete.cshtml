@@ -1,0 +1,12 @@
+@model Car
+
+<p>
+    <b>@Model.Brand - @Model.Model </b>  silmek istediğine emin misin ?
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" value="@Model.Id" name="CarId">
+        <button type="submit" class="btn btn-danger">Evet</button>
+        <a asp-action="List" class="btn btn-success">Hayır</a>
+    </form>
+</p>
+</div>

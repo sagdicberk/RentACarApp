@@ -1,0 +1,28 @@
+@model Car
+<div class="row">
+    <h2 class="text-center mb-4">@Model.Brand @Model.Model Detay</h2>
+    <div class="col-9">
+        <div class="container mt-5">
+            
+
+            <div class="card mb-4">
+                <img src="~/img/@Model.Image" class="card-img-top img-fluid" alt="Görsel" />
+                <div class="card-body">
+                    <h5 class="card-title">Üretim Yılı: @Model.Year</h5>
+                    <p class="card-text">
+                        <strong>Günlük Fiyatı:</strong>$ @Model.PricePerDay 
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a asp-controller="Car" asp-action="Index" class="btn btn-primary">Geri Dön</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-3 mt-5">
+        @await Component.InvokeAsync("BrandList")
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+            <h1 class="display-4 mb-3">RentACar'a Hoş Geldiniz</h1>
+            <p class="lead text-muted mb-4">Geniş araç kiralama seçeneklerimizi ve hizmetlerimizi keşfedin. İhtiyacınıza uygun aracı kolayca bulun.</p>
+
+            <a class="btn btn-primary btn-lg me-2 px-4 py-2" asp-area="" asp-controller="Car" asp-action="Index">Mevcut Araçları Görüntüle</a>
+            <a class="btn btn-secondary btn-lg px-4 py-2" href="#reservation">Rezervasyon Yap</a>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col text-center">
+            <h2 class="mb-4">İletişim Bilgilerimiz</h2>
+            <div class="card mx-auto" style="max-width: 600px;">
+                <div class="card-body">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3">
+                            <i class="fas fa-phone-alt me-2"></i> 
+                            <strong>Telefon:</strong> +90 555 123 4567
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-envelope me-2"></i> 
+                            <strong>E-posta:</strong> info@rentacar.com
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i> 
+                            <strong>Adres:</strong> Ankara, Türkiye
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
