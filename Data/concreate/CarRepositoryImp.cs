@@ -1,3 +1,4 @@
+using System.IO.Compression;
 using Microsoft.EntityFrameworkCore;
 using RentaCarApp.Data.Abstracts;
 using RentaCarApp.Models;
@@ -16,6 +17,12 @@ namespace RentaCarApp.Data.concreate
             _context = context;
         }
 
+        /*
+            Admin CarList için hazırlanmış
+            Arama işlemi yapabileceğimiz bir 
+            fonksiyondur. LİNQ sorgusu ile 
+            Model ve Marka için sorgu yapabiliriz.
+        */
         public IQueryable<Car> cars(string searchTerm)
         {
             return _context.Cars
@@ -24,7 +31,10 @@ namespace RentaCarApp.Data.concreate
                             || c.Model.ToLower().Contains(searchTerm));
         }
 
-
+        /*
+            User CarList için arama yapmamızı sağlayan bir 
+            LİNQ sorgu fonksiyonudur.
+        */
         public IQueryable<Car> ActiveCars(string searchTerm)
         {
             return _context.Cars
@@ -34,14 +44,32 @@ namespace RentaCarApp.Data.concreate
                             || c.Model.ToLower().Contains(searchTerm)));
         }
 
-        public IQueryable<Car> GetCarsByBrand(string brand){
+        /*
+            User CarList için hazırlanmıştır.
+            Araçları markasına göre listeleyen 
+            LİNQ sorgusuna sahip bir fonksiyondur.
+        */
+        public IQueryable<Car> GetCarsByBrand(string brand)
+        {
             return _context.Cars.Where(c => c.Brand == brand && c.IsActive);
         }
 
-        public IQueryable<string> GetAllBrands(){
+        /*
+            Kullanıcı arayüzünde göstermek
+            için hazırlanmıştır. Araçların 
+            markalarını getiren bir LINQ 
+            sorgusuna sahip bir fonksiyondur.
+        */
+        public IQueryable<string> GetAllBrands()
+        {
             return _context.Cars.Select(car => car.Brand).Distinct();
         }
 
+        /*
+            Admin kullanıcısı için hazırlanmıştır.
+            Yeni bir Car modeli ve bir resim dosyası alır. 
+            Resim dosyasını işler ve Car modelini veritabanına ekler.
+        */
         public async Task CreateCar(Car NewCar, IFormFile imageFile)
         {
             if (imageFile != null)
@@ -63,6 +91,11 @@ namespace RentaCarApp.Data.concreate
 
         }
 
+        /*
+            Admin kullanıcısı için hazırlanmıştır.
+            Verilen CarId'ye sahip Car modelini 
+            veritabanından siler.
+        */
         public async Task Delete(int? CarId)
         {
             var car = await _context.Cars.FindAsync(CarId);
@@ -74,9 +107,15 @@ namespace RentaCarApp.Data.concreate
 
         }
 
+        /*
+            Verilen CarId'ye göre aktif bir aracı 
+            veritabanından getirir. 
+            Eğer araç mevcutsa detaylarını döner, 
+            aksi takdirde null döner.
+        */
         public async Task<Car?> GetCarDetailsById(int? CarId)
         {
-            var car = await _context.Cars.FindAsync(CarId);
+            var car = await _context.Cars.FirstOrDefaultAsync(c => c.Id == CarId && c.IsActive);
             if (car != null)
             {
                 return car;
@@ -84,6 +123,11 @@ namespace RentaCarApp.Data.concreate
             return null;
         }
 
+        /*
+            Admin kullanıcısı için hazırlanmıştır.
+            Verilen CarId'ye sahip aracı günceller. 
+            Ayrıca yeni bir resim dosyası yüklenebilir.
+        */
         public async Task Update(int carId, Car car, IFormFile imageFile)
         {
             var existingCar = await _context.Cars.FindAsync(carId); // Asenkron olarak bul
@@ -112,10 +156,14 @@ namespace RentaCarApp.Data.concreate
             }
         }
 
-        
 
 
-        // resimlerin işlenmesi için herekli yardımcı fonksiyon. 
+
+        /*
+            Resimlerin işlenmesi için gerekli yardımcı fonksiyondur. 
+            Geçerli dosya uzantılarını kontrol eder ve dosyayı 
+            belirtilen dizine kaydeder.
+        */
         private async Task<string?> ProcessImageFile(IFormFile imageFile)
         {
             // Geçerli dosya uzantıları
