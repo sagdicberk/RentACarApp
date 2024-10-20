@@ -11,7 +11,9 @@ namespace RentaCarApp.ViewComponents
         {
             _repository = repository;
         }
-
+        
+        // bu Component ile markaları kullanıcıya gösterdim
+        // ve markaya göre filtreleme özelliğini kullanabildim
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var brands = await _repository.GetAllBrands(); 

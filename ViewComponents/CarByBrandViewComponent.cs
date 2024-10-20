@@ -15,7 +15,10 @@ namespace RentACarApp.ViewComponents
 
 
 
-
+        // bu component Detail sayfası içerinde gözükür
+        // Detayı gösterilen aracın sahip olduğu kategorideki
+        // üç adet araç gösterilir. ve gösterilen aracın detay
+        // sayfasına yönlendirme yapılabilir.
         public async Task<IViewComponentResult> InvokeAsync(int BrandId)
         {
             var Cars = await _repository.GetCarsByBrand(BrandId).Take(3).ToListAsync(); 

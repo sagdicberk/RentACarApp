@@ -119,6 +119,11 @@ namespace RentaCarApp.Data.concreate
             return null;
         }
 
+        /*
+            Admin işlemlerine yardımcı olması
+            için oluşturdum.
+            verilen Id'ye sahip aracı döner
+        */
 
         public async Task<Car?> GetCarById(int? CarId){
             var car = await _context.Cars

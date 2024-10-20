@@ -61,7 +61,7 @@ namespace RentaCarApp.Controllers
         /*
             User kullanıcısı için hazırlanıştır.
             Araçları Idsine göre Detail sayfasını getirir.
-            Araç Id'si eşleşmeli ve Aktif olmalı
+            Araç Id'si eşleşmeli ve Aktif olmalı.
         */
         [HttpGet("Detail/{CarId}")]
         public async Task<IActionResult> Detail(int CarId)
