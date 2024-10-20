@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hal/twx5LVrluHPkgBj0TV11aphKMTXqfzid9CG3xz8=",
+  "Hash": "Nl/z9Vo/BbBLiol0Do/M6pdLbqcMj675ZkWxHtrzSAg=",
   "Source": "RentaCarApp",
   "BasePath": "_content/RentaCarApp",
   "Mode": "Default",
@@ -169,6 +169,25 @@
       "OriginalItemSpec": "wwwroot\\img\\27dc9c59-4b6a-44b2-95e1-4ebafaf4ea4c.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\3d9037a3-0e66-4dc9-ba60-c8411ef8f6ee.jpg",
+      "SourceId": "RentaCarApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\",
+      "BasePath": "_content/RentaCarApp",
+      "RelativePath": "img/3d9037a3-0e66-4dc9-ba60-c8411ef8f6ee.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\3d9037a3-0e66-4dc9-ba60-c8411ef8f6ee.jpg"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\5564438f-62fa-4756-be21-bf50ab4ecb7c.png",
       "SourceId": "RentaCarApp",
       "SourceType": "Discovered",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\c0dbeb7c-445d-4b52-9f82-e0b9767bd546.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\df833e54-3e32-4a19-8772-02ab167f0640.jpg",
+      "SourceId": "RentaCarApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\",
+      "BasePath": "_content/RentaCarApp",
+      "RelativePath": "img/df833e54-3e32-4a19-8772-02ab167f0640.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\df833e54-3e32-4a19-8772-02ab167f0640.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\js\\site.js",
