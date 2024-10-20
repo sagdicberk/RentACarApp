@@ -2,6 +2,8 @@ using Microsoft.EntityFrameworkCore;
 using RentaCarApp.Data.Abstracts;
 using RentaCarApp.Data.concreate;
 using RentaCarApp.Models;
+using RentACarApp.Data.Abstracts;
+using RentACarApp.Data.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +14,11 @@ builder.Services.AddDbContext<CarDbContext>(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+/*
+    Car ve Brand Servicelerini sisteme tanımlamak için
+*/
 builder.Services.AddScoped<CarRepository, CarRepositoryImp>();
+builder.Services.AddScoped<BrandRepository, BrandRepositoryImp>();
 
 var app = builder.Build();
 
@@ -20,7 +26,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -33,6 +38,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}");
 
 app.Run();

@@ -1,6 +1,6 @@
 @model Car
 @{
-    ViewData["Title"] = "Add Car";
+    ViewData["Title"] = "Update Car";
 }
 <form asp-controller="Car" asp-action="Update" method="post" enctype="multipart/form-data">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -8,9 +8,9 @@
 
     <!-- Brand -->
     <div class="mb-3">
-        <label asp-for="Brand" class="form-label"></label>
-        <input asp-for="Brand" class="form-control">
-        <span asp-validation-for="Brand" class="text-danger"></span>
+        <label asp-for="BrandId" class="form-label"></label>
+        <select asp-for="BrandId" class="form-control" asp-items="ViewBag.Brands"></select>
+        <span asp-validation-for="BrandId" class="text-danger"></span>
     </div>
 
     <!-- Model -->
@@ -19,12 +19,11 @@
         <input asp-for="Model" class="form-control">
         <span asp-validation-for="Model" class="text-danger"></span>
     </div>
-    
 
     <!-- PricePerDay -->
     <div class="mb-3">
         <label asp-for="PricePerDay" class="form-label"></label>
-        <input asp-for="PricePerDay" class="form-control" type="number">
+        <input asp-for="PricePerDay" class="form-control" type="number" step="0.01">
         <span asp-validation-for="PricePerDay" class="text-danger"></span>
     </div>
 
@@ -43,7 +42,7 @@
     </div>
 
     <div class="mb-3">
-        <img src="~/img/@Model.Image" class="car-img-top img-fluid" width="250px">
+        <img src="~/img/@Model.Image" class="car-img-top img-fluid" width="250px" alt="Current Car Image">
     </div>
 
     <!-- IsActive (Checkbox) --> 
@@ -53,5 +52,6 @@
         <span asp-validation-for="IsActive" class="text-danger"></span>
     </div>
 
-    <button class="btn btn-primary" type="submit">Save</button>
+    <button class="btn btn-primary" type="submit">Kaydet</button>
+    <a class="btn btn-secondary" asp-controller="Car" asp-action="List">İptal</a>
 </form>

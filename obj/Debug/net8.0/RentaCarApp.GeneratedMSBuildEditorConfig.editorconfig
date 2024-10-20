@@ -9,67 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RentaCarApp
 build_property.RootNamespace = RentaCarApp
-build_property.ProjectDir = C:\Users\user\Desktop\kod\.netCore\RentaCarApp\
+build_property.ProjectDir = C:\Users\user\Desktop\kod\projects\RentACarApp\RentACarApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\kod\.netCore\RentaCarApp
+build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\kod\projects\RentACarApp\RentACarApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Car/Create.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Brand/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Brand/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Brand/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Car/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Car/Delete.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Car/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Car/Detail.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Car/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Car/index.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Car/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXGluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Car/List.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Car/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Car/Update.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Car/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Home/Index.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Home/Privacy.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Shared/Components/BrandList/Default.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Shared/Components/BrandList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQnJhbmRMaXN0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Shared/Error.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Shared/Components/CarByBrand/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FyQnlCcmFuZFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/_ViewImports.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/_ViewStart.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/kod/.netCore/RentaCarApp/Views/Shared/_Layout.cshtml]
+[C:/Users/user/Desktop/kod/projects/RentACarApp/RentACarApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4p7lpho24a

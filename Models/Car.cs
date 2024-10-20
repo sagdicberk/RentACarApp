@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using RentACarApp.Models;
 
 namespace RentaCarApp.Models
 {
@@ -10,11 +11,6 @@ namespace RentaCarApp.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Required(ErrorMessage = "Marka gereklidir.")]
-        [StringLength(50, ErrorMessage = "Marka 50 karakterden uzun olmamalıdır.")]
-        [Display(Name ="Marka Adı")]
-        public string Brand { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Model gereklidir.")]
         [StringLength(50, ErrorMessage = "Model 50 karakterden uzun olmamalıdır.")]
@@ -37,6 +33,10 @@ namespace RentaCarApp.Models
         [Display(Name ="Aktif mi")]
         public bool IsActive { get; set; }
 
+        
+        [Display(Name = "Marka")]
+        public int BrandId { get; set; }
 
+        public Brand Brand{get; set;} = null!;
     }
 }

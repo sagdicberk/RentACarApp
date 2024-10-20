@@ -26,8 +26,9 @@ namespace RentaCarApp.Data.concreate
         public IQueryable<Car> cars(string searchTerm)
         {
             return _context.Cars
+                .Include(c => c.Brand)
                 .Where(c => string.IsNullOrEmpty(searchTerm)
-                            || c.Brand.ToLower().Contains(searchTerm)
+                            || c.Brand.Name.ToLower().Contains(searchTerm)
                             || c.Model.ToLower().Contains(searchTerm));
         }
 
@@ -38,9 +39,10 @@ namespace RentaCarApp.Data.concreate
         public IQueryable<Car> ActiveCars(string searchTerm)
         {
             return _context.Cars
+                .Include(c => c.Brand)
                 .Where(c => c.IsActive &&
                             (string.IsNullOrEmpty(searchTerm)
-                            || c.Brand.ToLower().Contains(searchTerm)
+                            || c.Brand.Name.ToLower().Contains(searchTerm)
                             || c.Model.ToLower().Contains(searchTerm)));
         }
 
@@ -49,20 +51,11 @@ namespace RentaCarApp.Data.concreate
             Araçları markasına göre listeleyen 
             LİNQ sorgusuna sahip bir fonksiyondur.
         */
-        public IQueryable<Car> GetCarsByBrand(string brand)
+        public IQueryable<Car> GetCarsByBrand(int? id)
         {
-            return _context.Cars.Where(c => c.Brand == brand && c.IsActive);
-        }
-
-        /*
-            Kullanıcı arayüzünde göstermek
-            için hazırlanmıştır. Araçların 
-            markalarını getiren bir LINQ 
-            sorgusuna sahip bir fonksiyondur.
-        */
-        public IQueryable<string> GetAllBrands()
-        {
-            return _context.Cars.Select(car => car.Brand).Distinct();
+            return _context.Cars
+                    .Include(c => c.Brand)
+                    .Where(c => c.Brand.Id == id && c.IsActive);
         }
 
         /*
@@ -71,7 +64,8 @@ namespace RentaCarApp.Data.concreate
             Resim dosyasını işler ve Car modelini veritabanına ekler.
         */
         public async Task CreateCar(Car NewCar, IFormFile imageFile)
-        {
+        {   
+            
             if (imageFile != null)
             {
                 var imageName = await ProcessImageFile(imageFile);
@@ -115,7 +109,22 @@ namespace RentaCarApp.Data.concreate
         */
         public async Task<Car?> GetCarDetailsById(int? CarId)
         {
-            var car = await _context.Cars.FirstOrDefaultAsync(c => c.Id == CarId && c.IsActive);
+            var car = await _context.Cars
+                .Include(c => c.Brand)
+                .FirstOrDefaultAsync(c => c.Id == CarId && c.IsActive);
+            if (car != null)
+            {
+                return car;
+            }
+            return null;
+        }
+
+
+        public async Task<Car?> GetCarById(int? CarId){
+            var car = await _context.Cars
+                        .Include(c => c.Brand)
+                        .FirstOrDefaultAsync(c => c.Id == CarId);
+
             if (car != null)
             {
                 return car;
@@ -128,7 +137,7 @@ namespace RentaCarApp.Data.concreate
             Verilen CarId'ye sahip aracı günceller. 
             Ayrıca yeni bir resim dosyası yüklenebilir.
         */
-        public async Task Update(int carId, Car car, IFormFile imageFile)
+        public async Task Update(int carId, Car car, IFormFile? imageFile)
         {
             var existingCar = await _context.Cars.FindAsync(carId); // Asenkron olarak bul
             if (existingCar != null)
@@ -136,18 +145,13 @@ namespace RentaCarApp.Data.concreate
                 if (imageFile != null)
                 {
                     var imageResult = await ProcessImageFile(imageFile);
-                    if (imageResult == null)
-                    {
-                        // Hata durumu
-                        throw new Exception("Resim yüklenirken bir hata oluştu.");
-                    }
                     existingCar.Image = imageResult;
                 }
 
                 // Diğer car güncellemelerini yap
                 existingCar.PricePerDay = car.PricePerDay;
                 existingCar.Year = car.Year;
-                existingCar.Brand = car.Brand;
+                existingCar.BrandId = car.BrandId;
                 existingCar.Model = car.Model;
                 existingCar.IsActive = car.IsActive;
 

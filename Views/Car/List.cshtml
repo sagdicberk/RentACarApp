@@ -1,47 +1,53 @@
 @model IEnumerable<Car>
 
-<h2>Car List</h2>
+<h2 class="mb-4">Araç Listesi</h2>
 
-<div class="card display-d">
-    <form method="get" action="/Car/List" class="mb-3">
-        <input type="text" name="searchTerm" placeholder="Search cars" />
-        <button type="submit">Search</button>
-    </form>
-
-    <a asp-action="Create" class="btn btn-primary mb-3">Create</a>
-
-
+<div class="card p-3 mb-4">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <form method="get" action="/Car/List" class="d-flex">
+                <input type="text" name="searchTerm" placeholder="Araçları Ara" class="form-control me-2" />
+                <button type="submit" class="btn btn-outline-secondary">Ara</button>
+            </form>
+        </div>
+        <div class="col-md-6 text-end">
+            <a asp-action="Create" class="btn btn-primary">Araç Ekle</a>
+            <a asp-controller="Brand" asp-action="Index" class="btn btn-secondary">Marka İşlemleri</a>
+        </div>
+    </div>
 </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(m => m.Id)</th>
-            <th>@Html.DisplayNameFor(m => m.Brand)</th>
-            <th>@Html.DisplayNameFor(m => m.Model)</th>
-            <th>@Html.DisplayNameFor(m => m.PricePerDay)</th>
-            <th>@Html.DisplayNameFor(m => m.Image)</th>
-            <th>@Html.DisplayNameFor(m => m.IsActive)</th>
-            <th>Operation</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var car in Model)
-        {
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
             <tr>
-                <td>@Html.DisplayFor(Model => car.Id)</td>
-                <td>@Html.DisplayFor(Model => car.Brand)</td>
-                <td>@Html.DisplayFor(Model => car.Model)</td>
-                <td>@Html.DisplayFor(Model => car.PricePerDay) $</td>
-                <td><img src="~/img/@car.Image" class="car-img-top img-fluid" width="150px"></td>
-                <td>@car.IsActive</td>
-                <td>
-                    
-                    <a asp-area="" asp-controller="Car"  asp-action="Update" class="btn btn-secondary" asp-route-CarId="@car.Id">Güncelle</a>
-                    <a asp-area="" asp-controller="Car"  asp-action="Delete" class="btn btn-danger" asp-route-CarId="@car.Id">Sil</a>
-
-                </td>
+                <th>@Html.DisplayNameFor(m => m.Id)</th>
+                <th>@Html.DisplayNameFor(m => m.BrandId)</th>
+                <th>@Html.DisplayNameFor(m => m.Model)</th>
+                <th>@Html.DisplayNameFor(m => m.PricePerDay)</th>
+                <th>@Html.DisplayNameFor(m => m.Image)</th>
+                <th>@Html.DisplayNameFor(m => m.IsActive)</th>
+                <th>İşlemler</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(model => car.Id)</td>
+                    <td>@Html.DisplayFor(model => car.Brand.Name)</td>
+                    <td>@Html.DisplayFor(model => car.Model)</td>
+                    <td>@Html.DisplayFor(model => car.PricePerDay) $</td>
+                    <td>
+                        <img src="~/img/@car.Image" class="car-img-top img-fluid" width="150" alt="@car.Model">
+                    </td>
+                    <td>@(car.IsActive ? "Evet" : "Hayır")</td>
+                    <td>
+                        <a asp-controller="Car" asp-action="Update" class="btn btn-warning" asp-route-CarId="@car.Id">Güncelle</a>
+                        <a asp-controller="Car" asp-action="Delete" class="btn btn-danger" asp-route-CarId="@car.Id">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

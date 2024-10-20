@@ -2539,11 +2539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\RentaCarApp.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\RentaCarApp.csproj",
       "projectName": "RentaCarApp",
-      "projectPath": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\RentaCarApp.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\RentaCarApp.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

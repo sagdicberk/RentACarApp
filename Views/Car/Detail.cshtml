@@ -1,6 +1,12 @@
 @model Car
+<h3 class="mb-4">
+    <a asp-action="Index" asp-controller="Car" asp-route-brandId="@Model.Brand.Id" style="text-decoration: none; font-weight: bold; color: #007bff;">
+        @Model.Brand.Name
+    </a> 
+    <span style="font-weight: normal; color: #555;">/ @Model.Model</span>
+</h3>
 <div class="row">
-    <h2 class="text-center mb-4">@Model.Brand @Model.Model Detay</h2>
+    
     <div class="col-9">
         <div class="container mt-5">
             
@@ -10,7 +16,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Üretim Yılı: @Model.Year</h5>
                     <p class="card-text">
-                        <strong>Günlük Fiyatı:</strong>$ @Model.PricePerDay 
+                        <strong>Günlük Fiyatı:</strong> $@Model.PricePerDay 
                     </p>
 
                 </div>
@@ -24,5 +30,6 @@
     </div>
     <div class="col-3 mt-5">
         @await Component.InvokeAsync("BrandList")
+        @await Component.InvokeAsync("CarByBrand", new {brandId = Model.BrandId} )
     </div>
 </div>

@@ -1,7 +1,7 @@
 @model Car
 
 <p>
-    <b>@Model.Brand - @Model.Model </b>  silmek istediğine emin misin ?
+    <b>@Model.Brand.Name - @Model.Model </b>  silmek istediğine emin misin ?
 
     <form asp-action="Delete" method="post">
         <input type="hidden" value="@Model.Id" name="CarId">

@@ -1,0 +1,20 @@
+@model IEnumerable<Car>
+
+<div class="card container p-4">
+    <h4 class="mb-3">Aynı Markadan Araçlar</h4>
+    <ul class="list-group">
+        @foreach(var car in Model)
+        {
+            <li class="list-group-item d-flex align-items-center">
+                <img src="~/img/@car.Image" class="img-fluid mr-3" style="width: 100px;" alt="@car.Model">
+                <div class="card-title">
+                    <h5 class="m-3">
+                        <a asp-controller="Car" asp-action="Detail" asp-route-CarId="@car.Id" class="text-primary">
+                            @car.Model
+                        </a>
+                    </h5>
+                </div>
+            </li>
+        }
+    </ul>
+</div>

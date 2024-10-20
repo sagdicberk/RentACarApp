@@ -1,271 +1,279 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RentaCarApp.bundle.scp.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RentaCarApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\RentaCarApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\25e8e1fa-8c46-473e-8de1-480ed891cf04.png",
-      "PackagePath": "staticwebassets\\img\\25e8e1fa-8c46-473e-8de1-480ed891cf04.png"
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\0a23b105-3843-48da-9680-8ef6b8f7052e.jpg",
+      "PackagePath": "staticwebassets\\img\\0a23b105-3843-48da-9680-8ef6b8f7052e.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\2847da25-1347-4a32-aed8-377cc8f4a51d.jpg",
-      "PackagePath": "staticwebassets\\img\\2847da25-1347-4a32-aed8-377cc8f4a51d.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\108d55fe-e933-471d-a22d-fb43c844b055.jpg",
+      "PackagePath": "staticwebassets\\img\\108d55fe-e933-471d-a22d-fb43c844b055.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\355061e7-5a72-4020-a855-864cce107eee.png",
-      "PackagePath": "staticwebassets\\img\\355061e7-5a72-4020-a855-864cce107eee.png"
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\17c0496d-a38e-420b-89ba-422497e39e84.jpg",
+      "PackagePath": "staticwebassets\\img\\17c0496d-a38e-420b-89ba-422497e39e84.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\4283ab49-4707-42f8-b701-5252e03b6cc8.jpg",
-      "PackagePath": "staticwebassets\\img\\4283ab49-4707-42f8-b701-5252e03b6cc8.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\27dc9c59-4b6a-44b2-95e1-4ebafaf4ea4c.jpg",
+      "PackagePath": "staticwebassets\\img\\27dc9c59-4b6a-44b2-95e1-4ebafaf4ea4c.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\a92358a9-cbe2-48aa-8397-3c2691774a9b.jpg",
-      "PackagePath": "staticwebassets\\img\\a92358a9-cbe2-48aa-8397-3c2691774a9b.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\5564438f-62fa-4756-be21-bf50ab4ecb7c.png",
+      "PackagePath": "staticwebassets\\img\\5564438f-62fa-4756-be21-bf50ab4ecb7c.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\img\\b247c7e5-bef5-4daf-adf6-097c4bb36caf.jpg",
-      "PackagePath": "staticwebassets\\img\\b247c7e5-bef5-4daf-adf6-097c4bb36caf.jpg"
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\7ff2e6af-6103-4c00-b348-2be204501352.jpg",
+      "PackagePath": "staticwebassets\\img\\7ff2e6af-6103-4c00-b348-2be204501352.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\93f38f2e-bc6e-4b3f-a1c4-fc0e205b8535.jpg",
+      "PackagePath": "staticwebassets\\img\\93f38f2e-bc6e-4b3f-a1c4-fc0e205b8535.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\img\\c0dbeb7c-445d-4b52-9f82-e0b9767bd546.jpg",
+      "PackagePath": "staticwebassets\\img\\c0dbeb7c-445d-4b52-9f82-e0b9767bd546.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\kod\\.netCore\\RentaCarApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\user\\Desktop\\kod\\projects\\RentACarApp\\RentACarApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

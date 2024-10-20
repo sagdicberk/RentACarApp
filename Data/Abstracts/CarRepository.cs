@@ -12,12 +12,14 @@ namespace RentaCarApp.Data.Abstracts{
 
         Task<Car?> GetCarDetailsById(int? CarId);
 
-        Task Update(int CarId, Car car, IFormFile imageFile);
+        Task<Car?> GetCarById(int? CarId);
+
+        Task Update(int CarId, Car car, IFormFile? imageFile);
 
         Task Delete(int? CarId);
 
-        IQueryable<Car> GetCarsByBrand(string brand);
-        IQueryable<string> GetAllBrands();
+        IQueryable<Car> GetCarsByBrand(int? brandId);
+        
         
         
     }

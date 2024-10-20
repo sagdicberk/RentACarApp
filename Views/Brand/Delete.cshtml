@@ -1,0 +1,28 @@
+
+@model Brand
+
+@{
+    ViewData["Title"] = "Markayı Sil";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">@ViewData["Title"]</h2>
+
+    <div class="card mt-4">
+        <div class="card-header">
+            <h4 class="mb-0">Marka Bilgileri</h4>
+        </div>
+        <div class="card-body">
+            <h2 class="text-primary">@Model.Name</h2>
+
+            <div class="mt-4">
+                <h4>Bu markayı silmek istediğinize emin misiniz?</h4>
+                <form asp-action="DeleteConfirmed" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <button type="submit" class="btn btn-danger me-2">Sil</button>
+                    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

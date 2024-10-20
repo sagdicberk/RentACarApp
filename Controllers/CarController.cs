@@ -4,9 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RentaCarApp.Data.Abstracts;
 using RentaCarApp.Models;
+using RentACarApp.Data.Abstracts;
+using RentACarApp.Models;
 
 
 namespace RentaCarApp.Controllers
@@ -15,11 +18,13 @@ namespace RentaCarApp.Controllers
     public class CarController : Controller
     {
 
-        private readonly CarRepository _repository;
+        private readonly CarRepository _CarRepository;
+        private readonly BrandRepository _BrandRepository;
 
-        public CarController(CarRepository repository)
+        public CarController(CarRepository CarRepository, BrandRepository brandRepository)
         {
-            _repository = repository;
+            _CarRepository = CarRepository;
+            _BrandRepository = brandRepository;
         }
 
         /*
@@ -29,13 +34,13 @@ namespace RentaCarApp.Controllers
         */
 
         [HttpGet("Index")]
-        public async Task<IActionResult> Index(string searchTerm, string brand)
+        public async Task<IActionResult> Index(string searchTerm, int? brandId)
         {
-            var Cars = await _repository.ActiveCars(searchTerm).ToListAsync();
+            var Cars = await _CarRepository.ActiveCars(searchTerm).ToListAsync();
 
-            if (!string.IsNullOrEmpty(brand))
+            if (brandId != null)
             {
-                Cars = await _repository.GetCarsByBrand(brand).ToListAsync();
+                Cars = await _CarRepository.GetCarsByBrand(brandId).ToListAsync();
             }
 
             return View(Cars);
@@ -49,7 +54,7 @@ namespace RentaCarApp.Controllers
         [HttpGet("List")]
         public async Task<IActionResult> List(string searchTerm)
         {
-            var Cars = await _repository.cars(searchTerm).ToListAsync();
+            var Cars = await _CarRepository.cars(searchTerm).ToListAsync();
             return View(Cars);
         }
 
@@ -61,7 +66,7 @@ namespace RentaCarApp.Controllers
         [HttpGet("Detail/{CarId}")]
         public async Task<IActionResult> Detail(int CarId)
         {
-            var Car = await _repository.GetCarDetailsById(CarId);
+            var Car = await _CarRepository.GetCarDetailsById(CarId);
             if (Car == null)
             {
                 return NotFound();
@@ -79,8 +84,9 @@ namespace RentaCarApp.Controllers
         */
 
         [HttpGet("Create")]
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.Brands = new SelectList(await _BrandRepository.GetAllBrands(), "Id", "Name");
             return View();
         }
 
@@ -95,30 +101,30 @@ namespace RentaCarApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Car NewCar, IFormFile imageFile)
         {
-            // Resim dosyasını kontrol et
+            ViewBag.Brands = new SelectList(await _BrandRepository.GetAllBrands(), "Id", "Name", NewCar.BrandId);
             if (imageFile == null)
             {
                 ModelState.AddModelError("", "Lütfen bir resim seçin");
                 return View(NewCar);
             }
 
-            // Model geçerliliğini kontrol et
-            if (ModelState.IsValid)
-            {
+            
+
                 try
                 {
-                    // Yeni aracı oluştur
-                    await _repository.CreateCar(NewCar, imageFile);
+                    await _CarRepository.CreateCar(NewCar, imageFile);
                     return RedirectToAction("List");
                 }
                 catch (Exception ex)
                 {
-                    // Hata durumunda hata mesajını ModelState'e ekle
                     ModelState.AddModelError("", ex.Message);
+
                 }
-            }
+            
+
 
             // Hatalı model durumunda veya hata fırlatıldığında, aynı sayfayı döndür
+
             return View(NewCar);
         }
 
@@ -131,11 +137,13 @@ namespace RentaCarApp.Controllers
         [HttpGet("Update/{CarId}")]
         public async Task<IActionResult> Update(int CarId)
         {
-            var car = await _repository.GetCarDetailsById(CarId);
+            var car = await _CarRepository.GetCarById(CarId);
             if (car == null)
             {
                 return NotFound();
             }
+
+            ViewBag.Brands = new SelectList(await _BrandRepository.GetAllBrands(), "Id", "Name", car.BrandId);
             return View(car);
         }
 
@@ -149,16 +157,16 @@ namespace RentaCarApp.Controllers
         */
         [HttpPost("Update/{CarId}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(int CarId, [FromForm] Car car, IFormFile imageFile)
+        public async Task<IActionResult> Update(int CarId, [FromForm] Car car, IFormFile? imageFile)
         {
+            ViewBag.Brands = new SelectList(await _BrandRepository.GetAllBrands(), "Id", "Name", car.BrandId);
 
-            // Model geçerliliğini kontrol et
-            if (ModelState.IsValid)
-            {
+
+            
                 try
                 {
                     // Güncelleme işlemini gerçekleştir
-                    await _repository.Update(CarId, car, imageFile);
+                    await _CarRepository.Update(CarId, car, imageFile);
                     return RedirectToAction("List");
                 }
                 catch (Exception ex)
@@ -166,7 +174,7 @@ namespace RentaCarApp.Controllers
                     // Hata durumunda hata mesajını ModelState'e ekle
                     ModelState.AddModelError("", ex.Message);
                 }
-            }
+            
 
             // Hatalı model durumunda, aynı sayfayı döndür
             return View(car);
@@ -186,7 +194,7 @@ namespace RentaCarApp.Controllers
                 return NotFound();
             }
 
-            var car = await _repository.GetCarDetailsById(CarId);
+            var car = await _CarRepository.GetCarById(CarId);
             if (car == null)
             {
                 return NotFound();
@@ -203,8 +211,16 @@ namespace RentaCarApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete([FromForm] int CarId)
         {
-            await _repository.Delete(CarId);
-            return RedirectToAction("List");
+            try
+            {
+                await _CarRepository.Delete(CarId);
+                return RedirectToAction("List");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Silme işlemi sırasında bir hata oluştu: " + ex.Message);
+                return View(); // Hata mesajı gösterimi için uygun bir görünüm dönebiliriz
+            }
         }
 
 
